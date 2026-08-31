@@ -1,0 +1,12 @@
+# Secrets. GOOGLE_CLIENT_ID is harmless, ADMIN_EMAILS is not - it is the
+# access-control list for the live site.
+.env
+
+# Runtime state. These are the actual editions and subscribers; they belong in
+# a backup, not in the repository.
+/data/
+/uploads/
+
+# Build output
+/grep-backend
+/bin/
